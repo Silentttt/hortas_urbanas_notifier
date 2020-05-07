@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+}
+
+body {
+    -webkit-touch-callout: none;                
+    -webkit-text-size-adjust: none;             
+    -webkit-user-select: none;                  
+    background-image:url("../img/backgroundImage.jpg");
+    font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI', 'Roboto', sans-serif;
+    font-size:12px;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-right, 0px);
+    text-transform:uppercase;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#logo {
+    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    margin:auto;
+    width:170px;
+    height:200px;
+}
+
+#top-spacer {
+    height:30%;
+}
+
+#info {
+    font-weight: bold;
+    text-shadow: 0px 4px 5px rgba(12,5,3,0.23);
+    font-family: 'Roboto', sans-serif;
+    color:#e4e4e4;
+}
+
+#networkError {
+    background-image:url('../img/networkError.png');
+    margin:auto;
+    height:50px;
+    width:50px;
+    animation: blinking 1.2s infinite;
+}
+
+#done {
+    display:none;
+    background-image:url('../img/done.png');
+    margin:auto;
+    height:50px;
+    width:50px;
+    margin-bottom:10px;
+}
+
+#loading {
+    display:none;
+    margin:auto;
+    border: 5px solid #e4e4e4; /* Light grey */
+    border-top: 5px solid #80c56e; /* Blue */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    animation: spin 1s linear infinite;
+}
+
+#stats {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes blinking {
+    0%  {    opacity: 0;    }
+    50% {    opacity: 1;    }
+    100% {    opacity: 0;    }
+}

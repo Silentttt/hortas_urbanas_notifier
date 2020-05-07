@@ -1,0 +1,72 @@
+{
+  "_from": "nodejs-cordova-plugin",
+  "_id": "nodejs-cordova-plugin@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-z016kvS0rr/domYTxGdGCxQ1rW1VxbHYtuULry6FV9+eBaQTU4pD8nhcy8o+bwDbuBBtEYKZckxrRBMhGjr96Q==",
+  "_location": "/nodejs-cordova-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nodejs-cordova-plugin",
+    "name": "nodejs-cordova-plugin",
+    "escapedName": "nodejs-cordova-plugin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nodejs-cordova-plugin/-/nodejs-cordova-plugin-2.1.0.tgz",
+  "_shasum": "62166c2a4d75097bcd837197b08430bd8960835c",
+  "_spec": "nodejs-cordova-plugin",
+  "_where": "C:\\HortasUrbanasApp\\Hortas_Urbanas",
+  "author": {
+    "name": "amanganiello90"
+  },
+  "bugs": {
+    "url": "https://github.com/fullStackApp/nodejs-cordova-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "nodejs-cordova-plugin",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "nodejs-mobile-gyp": "0.2.0",
+    "tar.gz2": "1.0.0"
+  },
+  "deprecated": false,
+  "description": "Node.js for Mobile Apps Cordova plugin",
+  "engines": {
+    "cordovaDependencies": {
+      ">=0.1.0": {
+        "cordova-android": ">=6.2.1",
+        "cordova-ios": ">=4.4.0"
+      }
+    }
+  },
+  "homepage": "https://code.janeasystems.com/nodejs-mobile",
+  "keywords": [
+    "cordova",
+    "mobile",
+    "nodejs",
+    "node.js",
+    "nodejs-mobile",
+    "nodejs-cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "nodejs-cordova-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullStackApp/nodejs-cordova-plugin.git"
+  },
+  "version": "2.1.0"
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <title>Notificador Hortas Urbanas</title>
+    </head>
+    <body>
+        <div id="top-spacer"></div>
+        <div id="logo"></div>
+        <br>
+        <div id="networkError"></div>
+        <div id="loading"></div>
+        <div id="done"></div>
+        <h2 id="info" style="font-family: 'Roboto', sans serif;text-align: center;color:#e4e4e4;">A CONECTAR...</h2>
+        <br>
+        <p id="stats" style="text-align: center; color: #e4e4e4;"></p>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
